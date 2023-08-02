@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer and Otaku</p>
+                <h1>Hi, I'm <span>Ayush Saxena</span><br>Mca Student at <br> NIT JAMSHEDPUR</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey there! Ayush Saxena here, an enthusiastic MCA student from NIT Jamshedpur. As an aspiring professional in the world of computer applications, I'm constantly exploring the latest trends and technologies that shape our digital landscape. From coding to software development, I'm always eager to dive deep into the fascinating realm of technology. 
+                        Being a student at NIT Jamshedpur, I have had the incredible opportunity to learn from some of the brightest minds in the field. Balancing my passion for technology with my love for gaming has given me a unique perspective when it comes to approaching challenges.
+                        I firmly believe that collaboration and networking are essential for personal and professional growth.
+                        I am constantly seeking new challanges and opportunities to push the limits of what is possible. if you are looking for a software Engineer who can bring your wildest ideas to life, let's connect and change the game together!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Full Stack Web app Development</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2024</span><br>MCA from NIT JAMSHEDPUR</li>
+                            <li><span>2018-2021</span><br>BCA from BAREILLY COLLEGE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nam sit. Soluta quasi
+                        officia, alias vitae fugiat fuga exercitationem.</p>
+                    <a href="#portfolio">Learn more</a>
+
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p>Coming Soon...</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Coming Soon...</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/netflix6.png" alt="">
+                    <div class="layer">
+                        <h2>Netflix-Clone App</h2>
+                        <p>This is a fully responsive Netflix-clone which contains features like User authentication and authorization. 
+                            It is built with Mern technology</p>
+                        <button class="btn btn5" onclick="window.location.href='#';">Live</button>
+                        <button class="btn btn6" onclick="window.location.href='https://github.com/AyushSaxena2522/';">Github</button>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Django4.png" alt="">
+                    <div class="layer">
+                        <h2>Movies ,Tv shows and Anime App</h2>
+                        <p>Developed a Movies and tvshows recommendation website utilizing Python and Django web framework, integrating API calls to offer personalized movie and TV show suggestions. Implemented advanced search functionality for enhanced user experience.</p>
+                            <button class="btn btn5" onclick="window.location.href='https://tame-the-python-ojass.vercel.app/';">Live</button>
+                            <button class="btn btn6" onclick="window.location.href='https://github.com/AyushSaxena2522/Movie-Mania';">Github</button>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Expenses1.png" alt="">
+                    <div class="layer">
+                        <h2>Expenses Tracker App</h2>
+                        <p> Built an Expense Tracker using React js which will take the input of all the income sources and expenses. It helps in tracking daily income as well as Expenses. And displays the expenses in diagrammatic way</p>
+                        
+                        <button class="btn btn5" onclick="window.location.href='#';">Live</button>
+                        <button class="btn btn6" onclick="window.location.href='https://github.com/AyushSaxena2522/';">Github</button>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ToDoList4.png" alt="">
+                    <div class="layer">
+                        <h2>Todo List</h2>
+                        <p>Developed an ToDo List Web App where users can use CRUD operations, built with the help of the MERN stack.</p>
+                        
+                        <button class="btn btn5" onclick="window.location.href='https://dazzling-syrniki-01a6a3.netlify.app/';">Live</button>
+                        <button class="btn btn6" onclick="window.location.href='https://github.com/AyushSaxena2522/Full_Stack_Mern_ToDo-App';">Github</button>
+                    </div>
+                </div>
+            </div>
+            <a href="#portfolio" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+<!---------------------Quotes------------------------>
+
+<div class="slideshow-container">
+
+    <div class="mySlides">
+      <q>Failing Doesn’t Give You A Reason To Give Up, As Long As You Believe.</q> <br>
+    </br> <br>
+      <p class="author">- Naruto Uzumaku Dattebayo!!</p>
+    </div>
+
+    <div class="mySlides">
+      <q>The Moment People Come To Know Love, They Run The Risk Of Carrying Hate.</q> <br>
+    </br> <br>
+      <p class="author">- OBITO UCHIHA</p>
+    </div>
+  
+    <div class="mySlides">
+      <q>When People Get Hurt, They Learn To Hate… When People Hurt Others, They Become Hated And Racked With Guilt. But Knowing That Pain Allows People To Be Kind. Pain Allows People To Grow… And How You Grow Is Up To You.</q>
+    </br> <br>
+      <p class="author">- Jiraiya Sensei</p>
+    </div>
+  
+    <div class="mySlides">
+      <q>Sakura is Trash.</q> 
+    </br> <br>
+      <p class="author">- Everyone knows it.</p>
+    </div>
+    
+    <div class="mySlides">
+      <q>Rejection Is A Part Of Any Man’s Life. If You Can’t Accept And Move Past Rejection, Or At Least Use It As Writing Material – You’re Not A Real Man.</q>
+    </br> <br>
+      <p class="author">- JIRAIYA SENSEI.</p>
+    </div>
+    
+    
+    <div class="mySlides">
+        <q>In The Ninja World, Those Who Don’t Follow The Rules Are Scum. But, Those Who Abandon Their Friends Are Even Worse Than Scum.</q>
+    </br> <br>
+    <p class="author">- OBITO UCHIHA.</p>
+</div>
+
+    <div class="mySlides">
+    <q>Those Who Forgive Themselves, And Are Able To Accept Their True Nature… They Are The Strong Ones!.</q>
+    </br> <br>
+    <p class="author">- ITACHI UCHIHA.</p>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+    <span class="dot" onclick="currentSlide(6)"></span> 
+    <span class="dot" onclick="currentSlide(7)"></span>
+  </div>
+
+
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> ayushpf8102@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 1234567890</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ayushsaxena25/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/ayush_saxena25/"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/ayush_saxena_2225/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ayush8102/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+           <div class="copyright" id="footer">
+            <div  class="footer-content">
+                <h3 class="p-2"><b> Developed by : Ayush Saxena</b> </h3>
+                <p>for more details visit <button style="cursor: pointer;" onclick="window.location.href='https://www.linkedin.com/in/ayush8102/';">here</button></p>
+            </br>
+            </div>
+            
+        </br>
+            <div style="">
+                <p>  copyright &copy; <a href="#" style="cursor: not-allowed; color: aqua;">2023 Ayush </a>   </p>
+           </div>
+
+           <div style=" float: right; margin-right: 5px;">
+            <a href="#top" class="btn btn-light"> Top </a>
+        </div>
+    </div>
+
+
+<!-- ----------Internal Script---------- -->
+    <script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+window.onload= function () {
+  setInterval(function(){ 
+     plusSlides(1);
+  }, 5000);
+ }
+</script>
+</body>
+
+</html>
